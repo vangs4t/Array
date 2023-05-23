@@ -1,0 +1,14 @@
+public class Aritmarray {
+    public static void main(String[] args){
+        //operasi aritmatika dengan menyertakan array
+        int a = 10; int b = 5;
+        int[] aray = new int[]{
+                (a + b), (a - b), (a / b),(a * b)
+        };
+        System.out.printf("Hasil dari %d + %d = %d\n",a,b, + aray[0]);
+        System.out.printf("Hasil dari %d - %d = %d\n",a,b, + aray[1]);
+        System.out.printf("Hasil dari %d x %d = %d\n",a,b, + aray[2]);
+        System.out.printf("Hasil dari %d / %d = %d\n",a,b, + aray[3]);
+        System.out.printf("Hasil dari %d + %d = %d, modulus = %d\n", a, b, aray[0],(a % b));
+    }
+}
